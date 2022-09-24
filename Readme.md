@@ -30,4 +30,5 @@
 
 - How to work with images to make beautiful web pages
 
-<!-- ## [Live-link](https://landingpage-of-business.netlify.app/) of the project -->
+## [Live-link](https://business-landingpage12.netlify.app/) of the project
+
