@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:ital,wght@1,700&family=Orbitron:wght@400;600;900&family=Oswald:wght@700&family=Poppins:ital,wght@0,500;0,700;0,900;1,300&family=Righteous&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:ital,wght@1,700&family=Orbitron:wght@400;600;900&family=Oswald:wght@700&family=Poppins:ital,wght@0,500;0,700;0,900;1,300&family=Raleway:wght@200;300;400;500;600;700;800;900&family=Righteous&family=Roboto:wght@300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    background-color:#FBFBFB;
+    font-family: 'Poppins';
+}
+img{
+    height: 200px;
+}
+.main1{
+    background-color: #636C79;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.img1 img{
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.nav-list{
+    list-style: none;
+    margin-top: 40px;
+    margin-right: 45px;
+    display: flex;
+    flex-direction: row;
+}
+.nav-list-items{
+    margin-right: 60px;
+    color: #fff;
+}
+.nav-list-items:hover{
+    color: black;
+    cursor: pointer;
+}
+.nav-list button{
+    border: none;
+    height: 40px;
+    border: 2px solid #7D8188;
+    padding: 0px 50px;
+    background: transparent;
+    color:#fff;
+    margin-top: -8px;
+    margin-left:30px ;
+}
+.nav-list button:hover{
+    cursor: pointer;
+    color: black;
+}
+.part1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 70px;
+}
+.img2 img{
+    height: 28rem;
+    width: 47rem;
+    margin-top: -20px;
+    clip-path: inset(0% 22.5% 0% 22%);
+    margin-left: -20rem;
+    margin-bottom: 3rem;
+}
+.text1 h1{
+    color: #fff;
+    font-family: 'Raleway';
+    font-size: 60px;
+    margin-left: -38rem;
+    margin-top: 20px;
+    font-weight: 700;
+}
+.text1 p{
+    color: #D8DADD;
+    margin-left: -38rem;
+    margin-top: 15px;
+}
+.mail {
+    right: 0;
+    position: absolute;
+    margin-right: 53.2rem;
+    margin-top: 2.6rem;
+}
+.text1 button{
+    right: 0;
+    position: absolute;
+    background-color: #8BB7A2;
+    padding: 9px 25px;
+    border: none;
+    margin-right: 33.1rem;
+    margin-top: 2.075rem;
+    color: #fff;
+}
+.email{
+    padding: 15px 150px 15px 40px ;
+    margin-top: 25px;
+    margin-left: -38rem;
+}
+.main2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+.main2 h2{
+    font-family: 'Raleway';
+    font-size: 35px;
+    text-align: center;
+}
+.stats{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    text-align: center;
+}
+.stats1{
+    margin-right: 120px;
+}
+.stats1 h3{
+    font-size: 35px;
+    font-weight: 700;
+}
+.stats p{
+    margin-top: 3px;
+    color:#636C79;
+}
+.img3 img{
+    margin-top: 50px;
+    height: 30rem;
+    width: 70vw;
+}
+.text2{
+    margin-top: 8rem;
+    font-family: 'Raleway';
+    font-size: 20px;
+    text-align: center;
+}
+.main3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+    margin-left: 15rem;
+    margin-right: 20rem;
+}
+.side h2{
+    font-family: 'Raleway';
+    font-size: 32px;
+    margin-top: 35px;
+}
+.side p{
+    margin-top: 10px;
+    font-size: 14px;
+    color: #636C79;
+}
+.side button{
+    background-color: #8BB7A2;
+    padding: 9px 25px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 1.7rem;
+}
+.img4 img{
+    height: 20rem;
+    width: 35vw;
+    clip-path: inset(0% 0% 0% 33%);
+}
+.main4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-left: 15rem;
+    margin-right: 20rem;
+}
+.img0 img{
+    height: 24rem;
+    width: 25vw;
+}
+.main5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-left: 15rem;
+    margin-right: 18rem;
+}
+.img5 img{
+    clip-path: inset(0% 20% 0% 12%);
+    height: 22rem;
+    width: 32vw;
+
+}
+.main6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 4rem;
+    margin-left: 18rem;
+    margin-right: 23rem;
+    
+}
+.left-heading h2{
+    font-family: 'Raleway';
+    font-size: 32px;
+    margin-top: 35px;
+}
+.right-paragraph p{
+    margin-top: 2.75rem;
+    font-size: 14px;
+    color: #636C79;
+    margin-right: 2rem;
+
+}
+.main7{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    justify-content: space-between;
+    margin-left: 18rem;
+    margin-right: 23rem;
+}
+.img6  img{
+    height: 20rem;
+    width: 15vw;
+}
+.img6 p{
+    margin-top: 10px;
+    font-size: 12px;
+    color: #636C79;
+}
+.img6 h2{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Raleway';
+
+}
+.main8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-right: 7rem;
+}
+.main8 button {
+    background-color: #8BB7A2;
+    padding: 9px 25px;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 1.7rem;
+    
+}
+.main9{
+    background-color: #10181D;
+    margin-top: 4rem;
+}
+.logo img{
+    height: 50px;
+    margin-top: 40px;
+  
+}
+.up{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    border-bottom: 2px solid #282F34;
+    padding-bottom: 30px;
+}
+.social{
+    margin-top: 40px;
+    
+}
+.insta {
+    font-style: 18px;
+    margin-right: 10px;
+    border: 1px solid #282F34;
+    border-radius: 50%;
+    background-color: #282F34;
+    padding: 8px 8px;
+    color: #fff;
+}
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
+.footerlist h3{
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.a {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #696c72;
+    font-style: 15px;
+    margin-bottom: 7rem;
+}
+.footer1{margin-bottom: 10px;
+
+}
